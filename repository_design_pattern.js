@@ -115,7 +115,7 @@ function main() {
   console.log("find all: ", foundProducts);
 
   const updatedProduct = productRepository.updateOneById(uid, body);
-  console.log("update one: ", updatedProduct);
+  console.log("updated one: ", updatedProduct);
 
   const deleteOneById = productRepository.deleteOneById(uid);
   console.log("deleted, and remaings: ", deleteOneById);
